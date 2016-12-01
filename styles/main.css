@@ -1,17 +1,8 @@
 body * {
   box-sizing: border-box;
   font-family: 'Roboto', sans-serif;
-  font-size: 0;
 }
 
 a {
   text-decoration: none;
-}
-
-div {
-  border: 1px black solid;
-  display: inline-block;
-
-  padding: 0;
-  margin: auto;
 }

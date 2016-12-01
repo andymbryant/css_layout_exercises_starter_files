@@ -5,11 +5,19 @@ main {
 .top {
   width: 50%;
   height: 200px;
+  border: 1px black solid;
+  display: inline-block;
+  padding: 0;
+  margin: auto;
 }
 
 .bottom {
   width: 33.33%;
   height: 300px;
+  border: 1px black solid;
+  display: inline-block;
+  padding: 0;
+  margin: auto;
 }
 
 .topleft {

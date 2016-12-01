@@ -1,1 +1,72 @@
+nav {
+  border-top: 1px solid black;
+  border-bottom: 1px solid black;
+  position: fixed;
+  height: 50px;
+  width: 100%;
+  padding-left: 60px;
+  padding-right: 60px;
+  background-color: grey;
+}
 
+.caticon {
+  text-align: left;
+  border: 1px solid black;
+  border-radius: 100px;
+  height: 30px;
+  position: absolute;
+  left: 20px;
+  top: 10px;
+}
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+ul {
+  text-align: right;
+  right: 10px;
+  position: absolute;
+}
+
+ul li:after {
+  content: " |";
+}
+
+.box {
+  border: 10px green dotted;
+  width: 600px;
+  height: 300px;
+  position: relative;
+  margin: auto;
+  top: 300px;
+}
+
+.spacecat {
+  display: inline;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: -100px;
+  left: -100px
+}
+
+.spacedog {
+  display: inline;
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  top: 180px;
+  right: -100px
+}
+
+#bg {
+  position: fixed;
+  top: 50px;
+  left: 0;
+
+  /* Preserve aspet ratio */
+  min-width: 100%;
+  min-height: 100%;
+}
